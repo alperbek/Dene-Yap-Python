@@ -4,8 +4,6 @@ from time import ctime
 import time
 import os
 from gtts import gTTS
-import selenium
-from selenium import webdriver
 #keyboard = Controller()
 import keyboard
 
