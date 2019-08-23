@@ -10,7 +10,8 @@ Burada bulunan dosyaları açabilmek için [Buraya Tıklayarak](https://www.anac
 
 1. TwitterDataScrape.ipynb : 
     -  Twitter üzerinden herhangi bir API kullanmadan, python da bulunan selenium kütüphanesinin yardımıyla veri indirmenin anlatıldığı [jupyter notebook](http://www.veridefteri.com/2017/10/30/jupyter-notebook-nedir-2/) dökümanıdır. 
-    **NOT :** Chromedriver.exe bu uygulamanın çalışması için gerekmektedir.
+    
+    **NOT :** chromedriver.exe bu uygulamada web tarayıcısının mini versiyonu olarak kullanılmaktadır. Silinmemesi gerekiyor.
 
 2. Genetik Algoritma Yüz.ipynb :
     - [Genetik Algoritma](https://ahmetcevahircinar.com.tr/2017/08/08/genetik-algoritma-nedir-genetik-algoritma-nasil-calisir/) konusunun yüz çizme örneği ile anlatıldığı [jupyter notebook](http://www.veridefteri.com/2017/10/30/jupyter-notebook-nedir-2/) dökümanıdır. 
