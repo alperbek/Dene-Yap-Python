@@ -34,4 +34,4 @@ Burada bulunan dosyaları açabilmek için [Buraya Tıklayarak](https://www.anac
         - Açıldığı andan itibaren mikrofondaki sesleri algılamaya başlayan ve sağ, sol, yukarı veya aşağı komutlarını duyduğu anda klavyedeki tuşlara basarak oyundaki karenin ilerlemesini sağlayan python kodudur.
 
 
-Bu örnekler ilk olarak, Sarıyer Akademi'de düzenlenen [https://uzay00.github.io/kahve/uzmanlik.html](Gençler için Ücretsiz Yapay Zeka Eğitimleri) için hazırlanmıştır.
+Bu örnekler ilk olarak, Sarıyer Akademi'de düzenlenen [Gençler için Ücretsiz Yapay Zeka Eğitimleri](https://uzay00.github.io/kahve/uzmanlik.html) için hazırlanmıştır.
