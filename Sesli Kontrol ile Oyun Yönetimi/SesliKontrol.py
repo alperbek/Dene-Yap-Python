@@ -7,6 +7,8 @@ from gtts import gTTS
 #keyboard = Controller()
 import keyboard
 
+
+# Etraftaki sesleri dinleyerek algılayan fonksiyon. 
 def recordAudio():
     print("Komut Ver")
     r = sr.Recognizer()
@@ -15,16 +17,21 @@ def recordAudio():
         r.adjust_for_ambient_noise(source)
     data = ""
     try:
+        # Google ses algılama kütüphanesinin ayarları
         data = r.recognize_google(audio, language='tr-tr')
         data = data.lower()
         print("Şu Komutu Verdin: " + data)
+        
+    # Herhangi bir kelime algılayamazsa, döneceği hata
     except sr.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
+    # İnternet yoksa döneceği hata
     except sr.RequestError as e:
         print("Could not request results from Google Speech Recognition service; {0}".format(e))
     return data
  
 
+# Algılayabileceği kelimeler ve algıladığında alacağı aksiyonlar
 sag = ["sa","sağ"]
 sol = ["sol","son"]
 yukari = ["yukarı"]
@@ -48,6 +55,7 @@ def jarvis(data):
         keyboard.release('s')
 
 time.sleep(2)
+# Bu kısımdada uygulamanın sürekli çalışmasını sağlıyoruz.
 while 1:
     data = recordAudio()
     jarvis(data)
